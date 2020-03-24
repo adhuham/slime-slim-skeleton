@@ -1,0 +1,8 @@
+vendor/
+
+# exclude config
+.env
+
+# ignore vim swaps
+*.swap
+
