@@ -4,5 +4,5 @@ vendor/
 .env
 
 # ignore vim swaps
-*.swap
+*.swp
 
