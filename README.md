@@ -1,3 +1,5 @@
+> :warning: This project is in alpha stage
+
 # Slimey
 Slimey is a Slim 4 Skeleton that uses Slim PSR-7 implementation, PHP-DI container and Twig template engine. Slimey is more than just a Slim skeleton: it's a teeny tiny framework built on top of the Slim framework.
 
@@ -10,7 +12,11 @@ You would install Slimey just how you would do with any other skeleton. If you n
 Slimey uses a dotenv file to store the configuration settings. A sample config is given in `./config/.env.sample`. You have to copy that file by running `cp ./config/.env.sample ./config/.env` from the root of the project. 
 
 # Todo
-
+- [ ] Write documentation
+- [ ] Add a DB Migration library
+- [ ] Add an Authentication/Session management library
+- [ ] Implement session-based flash message support
+- [ ] Give user ability to change default libraries to their own ones
 
 # License
 Slimey doesn't have any license. Meaning, that it's in the public domain. You are permitted to copy, modify, publish, use, sell or compile it (or part of it)―for commercial, non-commercial, or for any other use―as many times as you wish. You are free to do whatever you like. Attribution is not necessary. But hey, if you give me an attribution, that's so sweet of you.
